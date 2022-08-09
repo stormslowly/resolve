@@ -1,6 +1,6 @@
 # resolve
 
-a simple tool verify where the module resolve to
+a simple tool to verify where the module resolve to
 
 ## install 
 
