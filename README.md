@@ -5,7 +5,7 @@ a simple tool to verify where the module resolve to
 ## install 
 
 ```bash
-$ npm install resolve -g 
+$ npm install resolve-tool -g 
 ```
 
 ## usage
