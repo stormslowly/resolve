@@ -22,9 +22,12 @@ try {
 
 for (let i = 0; i < toResolves.length; i++) {
   const toResolve = toResolves[i];
+
+  const toResolvePath = path.join(toResolve, 'package.json')
+
   try {
-    const resolved = require.resolve(toResolve, {paths: [p]});
-    console.log(`${toResolve} resolve to ${resolved}`);
+    const resolved = require.resolve(toResolvePath, {paths: [p]});
+    console.log(`${path.dirname(resolved)}`);
   } catch (e) {
     console.error(`${toResolve} can not be resolve`)
   }
