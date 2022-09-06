@@ -1,6 +1,6 @@
 {
   "name": "resolve-tool",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a simple tool to verify where the module resolve to\n",
   "main": "index.js",
   "bin": {
